@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Default suite" >
+  <test  name="Default test" >
+  <parameter name=browser value="chrome"></parameter>
+  
+  <groups>
+  <run>
+  <include name="admin"></include>
+    <include name="manager"></include>
+  
+  </run>
+  </groups>
+    <classes>
+<class name="testng.Testclass3">
+</class>
+<class name="testng.Testclass4">
+<methods>
+<include name=""></include>
+</methods>
+</class>
+       
+    </classes>
+  </test> 
+</suite> 
